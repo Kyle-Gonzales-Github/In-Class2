@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABCs of CSS</title>
+    <script src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <section id="fullbody">
+      <section id="main">
+        <h1>
+          Welcome to the Interactive ABCs of CSS technology learning Website
+        </h1>
+      </section>
+      <section id="sub-text">
+        <h1>
+          Click on the buttons below to reveal and learn the CSS technology
+          features of the corresponding letters.
+        </h1>
+      </section>
+      <section id="images">
+        <img id="image" src="./media/img/css-letter-a.png" alt="Letter A" />
+        <img id="image2" src="./media/img/css-letter-b.png" alt="Letter B" />
+        <img id="image3" src="./media/img/css-letter-c.png" alt="Letter C" />
+      </section>
+      <section id="hidebuttons">
+        <button onclick="hideImage(); dshowHideButton1()" class="hidebutton">Hide A</button>
+        <button onclick="hideImage2(); dshowHideButton2()" class="hidebutton2">Hide B</button>
+        <button onclick="hideImage3(); dshowHideButton3()" class="hidebutton3">Hide C</button>
+      </section>
+      <button onclick="showImage(); showHideButton1()" class="button1">A</button>
+      <button onclick="showImage2(); showHideButton2()"class="button2">B</button>
+      <button onclick="showImage3(); showHideButton3()" class="button3">C</button>
+  </body>
+</html>

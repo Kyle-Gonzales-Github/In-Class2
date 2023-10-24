@@ -1,0 +1,92 @@
+#main h1 {
+  text-align: center;
+  border: solid;
+}
+#sub-text h1 {
+  text-align: center;
+  border: solid;
+}
+#images {
+  display: flex;
+  margin-left: 200px;
+  padding: 50px;
+}
+#image {
+  display: flex;
+  margin-left: 100px;
+}
+#hidebuttons {
+  display: flex;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin-left: 200px;
+}
+.hidebutton {
+  margin-left: 250px;
+  width: 100px;
+  display: none;
+  margin-bottom: 50px;
+}
+.hidebutton2 {
+  margin-left: 250px;
+  width: 100px;
+  display: none;
+  margin-bottom: 50px;
+}
+.hidebutton3 {
+  margin-left: 250px;
+  width: 100px;
+  display: none;
+  margin-bottom: 50px;
+}
+.button1 {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 350px;
+}
+.button2 {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 450px;
+}
+.button3 {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 500px;
+}
+#fullbody {
+  border: solid;
+  border-color: black;
+  padding: 20px;
+}
+#main h1 {
+  padding: 20px;
+}
+#sub-text h1 {
+  padding: 20px;
+}
